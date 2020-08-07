@@ -8,6 +8,7 @@ import Login from './Login';
 import { useStateValue } from './StateProvider';
 import {auth}  from "./firebase"
 
+// main function
 function App() {
 const [{user},dispatch] = useStateValue();
 
