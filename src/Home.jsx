@@ -6,11 +6,11 @@ function Home() {
     return (
         <div className="home">
             <img className="home_image"
-            src="home_banner.PNG"//"https://www.paisebachaoindia.com/wp-content/uploads/2016/01/banner.png" 
+            src="banner.JPG"//"https://www.paisebachaoindia.com/wp-content/uploads/2016/01/banner.png" 
             alt=""/>
             
             {/* Product gonna have title,price,rating,image */}
-            <div className='product_row'>
+            <div className='home_row'>
                 <Product 
                     id = "12344"
                     title = "Headphone"
@@ -26,7 +26,7 @@ function Home() {
                     image="firestick.PNG"
                 />            
             </div>
-            <div className='product_row'>
+            <div className='home_row'>
                 <Product 
                 id = "12346"
                     title = "Camera"
@@ -49,7 +49,7 @@ function Home() {
                     image="e-cooker.PNG"
                 />
             </div>
-            <div className='product_row'>
+            <div className='home_row'>
                 <Product 
                 id = "12349"
                     title = "Phone"
